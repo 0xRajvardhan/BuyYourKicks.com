@@ -12,7 +12,7 @@ html {
 section {
     width: 100%;
     height: 100vh;
-    background-image: url(images/bg1.png);
+    background-image: url(image/bg1.png);
     background-size: cover;
     background-position: center;
 }
@@ -111,7 +111,7 @@ section .main .main_content .main_text p{
     left: 5%;
 }
 
-section .main .main_content .main_images img{
+section .main .main_content .main_image img{
     width: 650px;
     position: relative;
     left: 20px;
@@ -157,4 +157,28 @@ section .main .button i{
 
 section .main .button:hover i{
     transform: translateX(6px);
+}
+
+/* Products  */
+.products{
+    width: 100%;
+    height: 140vh;
+    padding: 25px 0;
+}
+
+.products h1{
+    margin: 35px 0;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #c72092, #6c14d0);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.products .box .card .image img{
+    width: 150px;
 }
