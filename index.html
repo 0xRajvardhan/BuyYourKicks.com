@@ -293,6 +293,49 @@
 
         </div>
     </div>
+
+    <!-- About  -->
+
+    <div class="about" id="About">
+
+        <h1>Web<span>About</span></h1>
+
+        <div class="about_main">
+            <div class="about_image">
+                <div class="about_small_image">
+                    <img src="image/red_shoes1.png" alt="red shoes" onclick="fucntio(this)">
+                    <img src="image/red_shoes2.png" alt="red shoes" onclick="fucntio(this)">
+                    <img src="image/red_shoes3.png" alt="red shoes" onclick="fucntio(this)">
+                    <img src="image/red_shoes4.png" alt="red shoes" onclick="fucntio(this)">
+                </div>
+
+                <div class="image_container">
+                    <img src="image/red_shoes1.png" id="imagebox">
+                </div>
+            </div>
+            <div class="about_text">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis cumque dignissimos qui quo
+                    perferendis! Minima quia quod assumenda facilis nostrum sunt dolor tempora accusantium odio eaque.
+                    Ducimus non cupiditate velit at recusandae minus eaque repellat consequatur reprehenderit quam!
+                    Maxime, ullam cupiditate voluptatum recusandae suscipit in beatae eligendi temporibus quas porro.
+                    Obcaecati reprehenderit deserunt quos. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Veniam minus perferendis, accusamus similique voluptate, dolorem placeat fugit asperiores
+                    distinctio, explicabo suscipit et tenetur numquam libero necessitatibus! Laudantium nesciunt id
+                    quas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat deserunt amet autem ea
+                    perferendis mollitia pariatur aliquam earum illum aliquid?
+                </p>
+            </div>
+        </div>
+        <a href="#" class="about_btn">Shop Now</a>
+
+        <script>
+            function functio(small) {
+                var full = document.getElementById("imagebox")
+                full.src = small.src
+            }
+        </script>
+    </div>
 </body>
 
 </html>
