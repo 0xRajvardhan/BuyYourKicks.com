@@ -93,3 +93,68 @@ section .main .main_content .main_text h1{
     top: 45px;
     left: 5%;
 }
+
+section .main .main_content .main_text h1 span{
+    font-size: 70px;
+    background: linear-gradient(to right, #c72092, #6c14d0);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+section .main .main_content .main_text p{
+    width: 600px;
+    text-align: justify;
+    line-height: 21px;
+    position: relative;
+    top: 85px;
+    left: 5%;
+}
+
+section .main .main_content .main_image img{
+    width: 650px;
+    position: relative;
+    left: 20px;
+    top: 75px;
+}
+
+section .main .social_icon{
+    position: absolute;
+    top: 50%;
+    left: 98%;
+    transform: translate(-50%, -50%);
+    font-size: 19px;
+}
+
+section .main .social_icon i{
+    margin: 8px 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+section .main .social_icon i:hover{
+    color: #c72092;
+}
+
+section .main .button{
+    position: absolute;
+    left: 6%;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background: linear-gradient(to right, #c72092, #6c14d0);
+}
+
+section .main .button a{
+    color: white;
+    text-decoration: none;
+}
+
+section .main .button i{
+    color: white;
+    margin-left: 5px;
+    transition: 0.3s;
+}
+
+section .main .button:hover i{
+    transform: translateX(6px);
+}
