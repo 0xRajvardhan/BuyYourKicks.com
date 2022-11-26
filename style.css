@@ -337,19 +337,57 @@ section .main .button:hover i {
     transition: 0.3s;
 }
 
-.about .about_main .about_image .about_small_image img:hover{
+.about .about_main .about_image .about_small_image img:hover {
     opacity: 1;
 }
 
-.about .about_main .image_container{
+.about .about_main .image_container {
     padding: 10px;
     display: flex;
 }
 
-.about .about_main .image_container img{
+.about .about_main .image_container img {
     border: 3px solid #c72092;
     border-radius: 20px;
     height: 430px;
     padding: 30px;
     box-shadow: 0 0 8px #6c14d0;
+}
+
+.about .about_main .about_text {
+    margin-top: 45px;
+}
+
+.about .about_main .about_text {
+    background: linear-gradient(to left, #c72092, #6c14d0);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 22px;
+    width: 600px;
+    text-align: justify;
+    padding: 25px 30px;
+    border: 2px solid #c72092;
+    border-radius: 20px;
+    box-shadow: 0 0 8px #c72092;
+}
+
+.about .about_btn {
+    color: black;
+    background: none;
+    position: relative;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 25px;
+    border: 2px solid #c72092;
+    text-decoration: none;
+    box-shadow: 0 0 8px #c72092;
+    transition: 0.5s;
+}
+
+.about .about_btn:hover {
+    border: 2px solid transparent;
+    background: #c72092;
+    color: white;
 }
