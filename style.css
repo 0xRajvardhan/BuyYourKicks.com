@@ -391,3 +391,52 @@ section .main .button:hover i {
     background: #c72092;
     color: white;
 }
+
+/* Review  */
+
+.review {
+    width: 100%;
+    height: 100vh;
+    padding-top: 18px;
+}
+
+.review h1 {
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.review h1 span {
+    background: linear-gradient(to left, #c72092, #6c14d0);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 15px;
+}
+
+.review .review_box {
+    width: 95%;
+    position: relative;
+    top: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.review .profile .profile_image{
+width: 60px;
+height: 60px;
+border-radius: 50%;
+overflow: hidden;
+margin: 5px 0;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+cursor: pointer;
+}
+
+.review .profile_image img {
+    width: 150px;
+}
